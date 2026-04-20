@@ -10,7 +10,7 @@ The workflow generates **intracellular fiber regions** suitable for downstream m
 
 Script: 
 
----
+
 
 ## Key Features
 
@@ -20,7 +20,6 @@ Script:
 * Automated filtering of noise and artifacts
 * Built-in morphometric measurements
 
----
 
 ## Requirements
 
@@ -38,7 +37,7 @@ Script:
 
 * macOS / Linux / Windows
 
----
+
 
 ## Installation (Optional: Cellpose)
 
@@ -56,7 +55,6 @@ Set the Python path in QuPath:
 /Users/username/micromamba/envs/cellpose3/bin/python
 ```
 
----
 
 ## Running the Segmentation
 
@@ -68,7 +66,7 @@ Set the Python path in QuPath:
 
    * **Intracellular Border of Fiber** annotations within each parent region
 
----
+
 
 ## Segmentation Method
 
@@ -84,7 +82,7 @@ The default workflow uses direct image-based segmentation:
 
 This enables consistent segmentation across images with varying fluorescence intensity.
 
----
+
 
 ## Output
 
@@ -100,7 +98,7 @@ This enables consistent segmentation across images with varying fluorescence int
 * Parent region area
 * Whole image area
 
----
+
 
 ## Parameter Tuning
 
@@ -111,7 +109,7 @@ Key adjustable parameters in the script:
 * `minInteriorAreaPx` — removes small artifacts
 * `maxInteriorAreaFraction` — prevents large merged regions
 
----
+
 
 ## Optional: Cellpose Mode
 
@@ -121,7 +119,7 @@ To enable Cellpose segmentation:
 useCellpose = true
 ```
 
----
+
 
 ## Citation
 
@@ -131,7 +129,7 @@ Stringer, C., Wang, T., Michaelos, M., & Pachitariu, M.
 *Cellpose: a generalist algorithm for cellular segmentation.*
 Nature Methods (2021)
 
----
+
 
 ## License
 
